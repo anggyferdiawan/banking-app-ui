@@ -84,14 +84,26 @@ flutter:
   fonts:
     - family: Poppins
       fonts:
-        - assets: assets/fonts/poppins/Poppins-Medium.ttf
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
         - weight: 300
 
-        - assets: assets/fonts/poppins/Poppins-SemiBold.ttf
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
         - weight: 500
 
-        - assets: assets/fonts/poppins/Poppins-Bold.ttf
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
         - weight: 700
+
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - assets: assets/fonts/poppins/Poppins-Medium.ttf
+  #       - weight: 300
+
+  #       - assets: assets/fonts/poppins/Poppins-SemiBold.ttf
+  #       - weight: 500
+
+  #       - assets: assets/fonts/poppins/Poppins-Bold.ttf
+  #       - weight: 700
 
   # fonts:
   #   - family: Schyler

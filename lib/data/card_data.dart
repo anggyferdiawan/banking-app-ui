@@ -9,12 +9,12 @@ class CardModel {
   Color cardColor;
 
   CardModel({
-    this.cardHolderName,
-    this.cardNumber,
-    this.cardColor,
-    this.expDate,
-    this.cvv,
-  })
+    required this.cardHolderName,
+    required this.cardNumber,
+    required this.cardColor,
+    required this.expDate,
+    required this.cvv,
+  });
 }
 
 List<CardModel> myCards = [
@@ -22,15 +22,15 @@ List<CardModel> myCards = [
     cardHolderName: 'Farel Bramantyo',
     cardNumber: '**** **** **** 4856',
     cvv: '**4',
-    expData: '12/24',
+    expDate: '12/24',
     cardColor: aPrimaryColor,
   ),
 
   CardModel(
-    CardHolderName: 'Farel Bramantyo',
+    cardHolderName: 'Farel Bramantyo',
     cardNumber: '**** **** **** 7846',
     cvv: '**7',
-    expData: '04/25',
+    expDate: '04/25',
     cardColor: aSecondaryColor,
   ),
 ];
